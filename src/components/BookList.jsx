@@ -8,7 +8,7 @@ class BookList extends Component {
     console.log("dai su");
     return (
       <Container>
-        <Row sm={2} md={3} lg={4}>
+        <Row xs={1} sm={2} md={3} lg={4}>
           {books.map((book) => (
             <div className="col mb-3" key={book.asin}>
               <SingleBook book={book} />
